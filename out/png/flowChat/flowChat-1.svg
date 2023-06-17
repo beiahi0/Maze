@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="702px" preserveAspectRatio="none" style="width:628px;height:702px;background:#FFFFFF;" version="1.1" viewBox="0 0 628 702" width="628px" zoomAndPan="magnify"><defs/><g><path d="M91,25 L288,25 A12.5,12.5 0 0 1 300.5,37.5 L300.5,54.1201 L78.5,54.1201 L78.5,37.5 A12.5,12.5 0 0 1 91,25 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="221.7207" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="222" x="78.5" y="25"/><line style="stroke:#181818;stroke-width:0.5;" x1="78.5" x2="300.5" y1="54.1201" y2="54.1201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="180.5" y="46.0439">init</text><g id="init.MyThread"><rect fill="#F1F1F1" height="115.6006" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="201" x="90.5" y="121.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="90.5" x2="291.5" y1="150.2402" y2="150.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="159" y="142.1641">MyThread</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="95.5" y="171.2842">建立子线程</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="95.5" y="190.4043">实例化 Maze 类并初始化迷宫</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="95.5" y="209.5244">实例化 MazeMaking 类</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="95.5" y="228.6445">实例化 MazeSolving 类</text></g><ellipse cx="191" cy="75.1201" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><!--MD5=[b7ac1c8c76f7b1b6c1eed7b6a0d3416e]
+link *start*init to MyThread--><g id="link_*start*init_MyThread"><path d="M191,85.1701 C191,92.5101 191,103.5601 191,115.5201 " fill="none" id="*start*init-to-MyThread" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="191,120.6901,195,111.6901,191,115.6901,187,111.6901,191,120.6901" style="stroke:#181818;stroke-width:1.0;"/></g><path d="M348.5,7 L602,7 A12.5,12.5 0 0 1 614.5,19.5 L614.5,36.1201 L336,36.1201 L336,19.5 A12.5,12.5 0 0 1 348.5,7 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="258.3604" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="278.5" x="336" y="7"/><line style="stroke:#181818;stroke-width:0.5;" x1="336" x2="614.5" y1="36.1201" y2="36.1201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="436.25" y="28.0439">setMazeSize</text><ellipse cx="479.5" cy="57.1201" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="setMazeSize.setSize"><rect fill="#F1F1F1" height="58.2402" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="118" x="420.5" y="103.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="420.5" x2="538.5" y1="132.2402" y2="132.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="457" y="124.1641">setSize</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="425.5" y="153.2842">设置迷宫的大小</text></g><g id="setMazeSize.setBeginPosition"><rect fill="#F1F1F1" height="58.2402" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="125" x="348" y="197.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="348" x2="473" y1="226.2402" y2="226.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="358" y="218.1641">setBeginPosition</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="353" y="247.2842">设置迷宫起点</text></g><g id="setMazeSize.setEndPosition"><rect fill="#F1F1F1" height="58.2402" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="491.5" y="197.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="491.5" x2="605.5" y1="226.2402" y2="226.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="501.5" y="218.1641">setEndPosition</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="496.5" y="247.2842">设置迷宫终点</text></g><!--MD5=[3cd3f08b3176d2311b49d5719e590f30]
+link *start*setMazeSize to setSize--><g id="link_*start*setMazeSize_setSize"><path d="M479.5,67.3701 C479.5,75.1501 479.5,86.7801 479.5,97.9801 " fill="none" id="*start*setMazeSize-to-setSize" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="479.5,103.0801,483.5,94.0801,479.5,98.0801,475.5,94.0801,479.5,103.0801" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[44884fc0da611df04129bd47b16a1ead]
+link setSize to setBeginPosition--><g id="link_setSize_setBeginPosition"><path d="M458.42,161.2201 C450.94,171.2101 442.45,182.5201 434.72,192.8301 " fill="none" id="setSize-to-setBeginPosition" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="431.69,196.8701,440.29,192.0701,434.69,192.8701,433.89,187.2701,431.69,196.8701" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a4a6d5064e69372a02a60a337c3716d5]
+link setSize to setEndPosition--><g id="link_setSize_setEndPosition"><path d="M500.58,161.2201 C508.06,171.2101 516.55,182.5201 524.28,192.8301 " fill="none" id="setSize-to-setEndPosition" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="527.31,196.8701,525.11,187.2701,524.31,192.8701,518.71,192.0701,527.31,196.8701" style="stroke:#181818;stroke-width:1.0;"/></g><path d="M381.5,325 L569.5,325 A12.5,12.5 0 0 1 582,337.5 L582,354.1201 L369,354.1201 L369,337.5 A12.5,12.5 0 0 1 381.5,325 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="371.3604" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="213" x="369" y="325"/><line style="stroke:#181818;stroke-width:0.5;" x1="369" x2="582" y1="354.1201" y2="354.1201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="439" y="346.0439">createMaze</text><ellipse cx="477" cy="375.1201" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="createMaze.initMaze"><rect fill="#F1F1F1" height="58.2402" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="192" x="381" y="421.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="381" x2="573" y1="450.2402" y2="450.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="451.5" y="442.1641">initMaze</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="386" y="471.2842">初始化迷宫（具体见3.4.1）</text></g><g id="createMaze.setRandomBeginPosition"><rect fill="#F1F1F1" height="77.3604" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="178" x="388" y="515.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="388" x2="566" y1="544.2402" y2="544.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="398" y="536.1641">setRandomBeginPosition</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="393" y="565.2842">随机生成起点，保证</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="393" y="584.4043">生成的迷宫的确定性</text></g><g id="createMaze.mainRoadBend"><rect fill="#F1F1F1" height="58.2402" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="418.5" y="628.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="418.5" x2="535.5" y1="657.2402" y2="657.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="428.5" y="649.1641">mainRoadBend</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="423.5" y="678.2842">迷宫生成算法</text></g><!--MD5=[d60c48e3b624a15bfa30ac0ee99e258e]
+link *start*createMaze to initMaze--><g id="link_*start*createMaze_initMaze"><path d="M477,385.3701 C477,393.1501 477,404.7801 477,415.9801 " fill="none" id="*start*createMaze-to-initMaze" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="477,421.0801,481,412.0801,477,416.0801,473,412.0801,477,421.0801" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dbbd2bc6b8a48e07003e31fa36862cec]
+link initMaze to setRandomBeginPosition--><g id="link_initMaze_setRandomBeginPosition"><path d="M477,479.1201 C477,488.6001 477,499.4201 477,509.7801 " fill="none" id="initMaze-to-setRandomBeginPosition" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="477,514.8301,481,505.8301,477,509.8301,473,505.8301,477,514.8301" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2ca84728d5b1afc6d9140a4e1e138f91]
+link setRandomBeginPosition to mainRoadBend--><g id="link_setRandomBeginPosition_mainRoadBend"><path d="M477,592.1301 C477,602.2301 477,613.0801 477,622.9201 " fill="none" id="setRandomBeginPosition-to-mainRoadBend" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="477,627.9701,481,618.9701,477,622.9701,473,618.9701,477,627.9701" style="stroke:#181818;stroke-width:1.0;"/></g><path d="M19.5,325 L321.5,325 A12.5,12.5 0 0 1 334,337.5 L334,354.1201 L7,354.1201 L7,337.5 A12.5,12.5 0 0 1 19.5,325 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="371.3604" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="327" x="7" y="325"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="334" y1="354.1201" y2="354.1201"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="149" y="346.0439">search</text><ellipse cx="193" cy="375.1201" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="search.setFlag"><rect fill="#F1F1F1" height="58.2402" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="244" x="71" y="421.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="71" x2="315" y1="450.2402" y2="450.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="169.5" y="442.1641">setFlag</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="224" x="76" y="471.2842">设置迷宫的一些标志，如起点、终点</text></g><g id="search.reset"><rect fill="#F1F1F1" height="77.3604" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="230" x="78" y="515.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="78" x2="308" y1="544.2402" y2="544.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="177" y="536.1641">reset</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="210" x="83" y="565.2842">将迷宫重新设置，去掉正在遍历的</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="83" y="584.4043">记号，保留路、墙、起点、终点</text></g><g id="search.dfs"><rect fill="#F1F1F1" height="58.2402" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="19" y="628.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="19" x2="123" y1="657.2402" y2="657.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="61.5" y="649.1641">dfs</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="24" y="678.2842">深度优先算法</text></g><g id="search.bfs"><rect fill="#F1F1F1" height="58.2402" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="141" y="628.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="141" x2="245" y1="657.2402" y2="657.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="183.5" y="649.1641">bfs</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="146" y="678.2842">广度优先算法</text></g><g id="search.aStar"><rect fill="#F1F1F1" height="58.2402" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="263" y="628.1201"/><line style="stroke:#181818;stroke-width:0.5;" x1="263" x2="325" y1="657.2402" y2="657.2402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="277" y="649.1641">aStar</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="268" y="678.2842">A*算法</text></g><!--MD5=[1e9c3366761308230873ad2cfd9e508d]
+link *start*search to setFlag--><g id="link_*start*search_setFlag"><path d="M193,385.3701 C193,393.1501 193,404.7801 193,415.9801 " fill="none" id="*start*search-to-setFlag" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="193,421.0801,197,412.0801,193,416.0801,189,412.0801,193,421.0801" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4a8be5567c883a99c57df70db8bd03bc]
+link setFlag to reset--><g id="link_setFlag_reset"><path d="M193,479.1201 C193,488.6001 193,499.4201 193,509.7801 " fill="none" id="setFlag-to-reset" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="193,514.8301,197,505.8301,193,509.8301,189,505.8301,193,514.8301" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[007b2d4806009afceb3e86a9fffc1bfe]
+link reset to dfs--><g id="link_reset_dfs"><path d="M147.92,592.1301 C135.11,602.7801 121.3,614.2701 108.96,624.5401 " fill="none" id="reset-to-dfs" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="104.84,627.9701,114.3157,625.2848,108.6823,624.7706,109.1965,619.1372,104.84,627.9701" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d0b249a100c6566ccd26675664cd89b3]
+link reset to bfs--><g id="link_reset_bfs"><path d="M193,592.1301 C193,602.2301 193,613.0801 193,622.9201 " fill="none" id="reset-to-bfs" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="193,627.9701,197,618.9701,193,622.9701,189,618.9701,193,627.9701" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b5c812971949fd2b0c60aea2bf78defe]
+link reset to aStar--><g id="link_reset_aStar"><path d="M230.32,592.1301 C240.83,602.6901 252.16,614.0701 262.31,624.2701 " fill="none" id="reset-to-aStar" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="265.99,627.9701,262.473,618.7706,262.4616,624.4274,256.8048,624.416,265.99,627.9701" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c9b34e9a34de5fd7abf27627ebbbd28e]
+link init to setMazeSize--><g id="link_init_setMazeSize"><path d="M300.66,136 C310.64,136 320.63,136 330.61,136 " fill="none" id="init-to-setMazeSize" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="335.83,136,326.83,132,330.83,136,326.83,140,335.83,136" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[af7c35ebca0f744e1657b0609e730c8c]
+link setMazeSize to createMaze--><g id="link_setMazeSize_createMaze"><path d="M475.5,265.19 C475.5,282.79 475.5,301.16 475.5,319.58 " fill="none" id="setMazeSize-to-createMaze" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="475.5,324.78,479.5,315.78,475.5,319.78,471.5,315.78,475.5,324.78" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9b5442a02d4dea5577725fc3414bdecb]
+reverse link search to createMaze--><g id="link_search_createMaze"><path d="M339.19,510.5 C349.07,510.5 358.95,510.5 368.84,510.5 " fill="none" id="search-backto-createMaze" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="334.02,510.5,343.02,514.5,339.02,510.5,343.02,506.5,334.02,510.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a4d6bff70d5263a49e1670800951ca38]
+@startuml
+
+state init {
+    state MyThread
+    ' :maze
+    ' :mazeMaking
+    ' :mazeSearching
+    MyThread:建立子线程
+    MyThread:实例化 Maze 类并初始化迷宫
+    MyThread:实例化 MazeMaking 类
+    MyThread:实例化 MazeSolving 类
+
+    [*] - -> MyThread
+}
+
+state setMazeSize {
+    [*]- -> setSize
+    setSize- ->setBeginPosition
+    setSize- ->setEndPosition
+
+    setSize: 设置迷宫的大小
+    setBeginPosition: 设置迷宫起点
+    setEndPosition: 设置迷宫终点
+}
+
+state createMaze {
+    [*] - -> initMaze
+    initMaze- -> setRandomBeginPosition
+    setRandomBeginPosition- -> mainRoadBend
+
+    initMaze: 初始化迷宫（具体见3.4.1）
+
+    setRandomBeginPosition: 随机生成起点，保证\n生成的迷宫的确定性
+
+    mainRoadBend: 迷宫生成算法
+}
+
+state search{
+    [*] - -> setFlag
+
+    setFlag- -> reset
+
+    reset- -> dfs
+    reset- -> bfs
+    reset- -> aStar
+
+
+    setFlag: 设置迷宫的一些标志，如起点、终点
+    reset: 将迷宫重新设置，去掉正在遍历的\n记号，保留路、墙、起点、终点
+    dfs: 深度优先算法
+    bfs: 广度优先算法
+    aStar: A*算法
+}
+
+init -right-> setMazeSize
+setMazeSize -down-> createMaze
+createMaze -left-> search
+
+
+@enduml
+
+@startuml
+
+state init {
+    state MyThread
+    MyThread:建立子线程
+    MyThread:实例化 Maze 类并初始化迷宫
+    MyThread:实例化 MazeMaking 类
+    MyThread:实例化 MazeSolving 类
+
+    [*] - -> MyThread
+}
+
+state setMazeSize {
+    [*]- -> setSize
+    setSize- ->setBeginPosition
+    setSize- ->setEndPosition
+
+    setSize: 设置迷宫的大小
+    setBeginPosition: 设置迷宫起点
+    setEndPosition: 设置迷宫终点
+}
+
+state createMaze {
+    [*] - -> initMaze
+    initMaze- -> setRandomBeginPosition
+    setRandomBeginPosition- -> mainRoadBend
+
+    initMaze: 初始化迷宫（具体见3.4.1）
+
+    setRandomBeginPosition: 随机生成起点，保证\n生成的迷宫的确定性
+
+    mainRoadBend: 迷宫生成算法
+}
+
+state search{
+    [*] - -> setFlag
+
+    setFlag- -> reset
+
+    reset- -> dfs
+    reset- -> bfs
+    reset- -> aStar
+
+
+    setFlag: 设置迷宫的一些标志，如起点、终点
+    reset: 将迷宫重新设置，去掉正在遍历的\n记号，保留路、墙、起点、终点
+    dfs: 深度优先算法
+    bfs: 广度优先算法
+    aStar: A*算法
+}
+
+init -right-> setMazeSize
+setMazeSize -down-> createMaze
+createMaze -left-> search
+
+
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 01:01:30 CST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>

@@ -1,0 +1,116 @@
+@@startuml
+
+class Maze
+{
+    maze
+    beginPos
+    cur
+    endPos
+
+    reset()
+    setSize()
+    updateMaze()
+}
+
+class MazeMaking
+{
+    setFlag()
+    emptyMap()
+    setBeginPosition()
+}
+
+class MazeSearching
+{
+    dfs()
+    bfs()
+    a-star()
+}
+
+Maze --|> MazeMaking
+Maze --|> MazeSearching
+
+
+@enduml
+
+@startuml
+
+state init {
+    state MyThread
+    ' :maze
+    ' :mazeMaking
+    ' :mazeSearching
+    MyThread:建立子线程
+    MyThread:实例化 Maze 类并初始化迷宫
+    MyThread:实例化 MazeMaking 类
+    MyThread:实例化 MazeSolving 类
+
+    [*] --> MyThread
+}
+
+state setMazeSize {
+    [*]--> setSize
+    setSize-->setBeginPosition
+    setSize-->setEndPosition
+
+    setSize: 设置迷宫的大小
+    setBeginPosition: 设置迷宫起点
+    setEndPosition: 设置迷宫终点
+}
+
+state createMaze {
+    [*] --> initMaze
+    initMaze--> setRandomBeginPosition
+    setRandomBeginPosition--> mainRoadBend
+
+    initMaze: 初始化迷宫（具体见3.4.1）
+
+    setRandomBeginPosition: 随机生成起点，保证\n生成的迷宫的确定性
+
+    mainRoadBend: 迷宫生成算法
+}
+
+state search{
+    [*] --> setFlag
+
+    setFlag--> reset
+
+    reset--> dfs
+    reset--> bfs
+    reset--> aStar
+
+
+    setFlag: 设置迷宫的一些标志，如起点、终点
+    reset: 将迷宫重新设置，去掉正在遍历的\n记号，保留路、墙、起点、终点
+    dfs: 深度优先算法
+    bfs: 广度优先算法
+    aStar: A*算法
+}
+
+init -right-> setMazeSize
+setMazeSize -down-> createMaze
+createMaze -left-> search
+
+
+@enduml
+
+
+@startuml
+
+state init{
+    [*]--> create_maze
+}
+
+
+' class myThread
+' {
+    '     Maze *maze
+    '     MazeMaking *mazeMaking
+    '     MazeSearching *MazeSearching
+
+    '
+' }
+
+
+@enduml
+
+

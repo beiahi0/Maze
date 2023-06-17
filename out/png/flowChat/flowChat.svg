@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="361px" preserveAspectRatio="none" style="width:286px;height:361px;background:#FFFFFF;" version="1.1" viewBox="0 0 286 361" width="286px" zoomAndPan="magnify"><defs/><g><!--MD5=[572cc6a1bc3a05a2dbf5da1e45f98cfb]
+class Maze--><g id="elem_Maze"><rect codeLine="3" fill="#F1F1F1" height="181.8408" id="Maze" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="98" y="7"/><ellipse cx="128.3" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M126.8781,28.3594 Q125.0188,28.3594 123.925,26.9688 Q122.8313,25.5781 122.8313,22.5938 Q122.8313,20.0625 123.9953,18.4063 Q125.1594,16.75 127.1438,16.75 Q128.6125,16.75 129.0813,16.875 Q129.55,17.0781 129.55,17.0781 Q129.55,17.0781 129.55,17.0078 Q129.55,16.9375 130.1594,16.0156 L131.2063,19.6719 L129.8781,20.0781 Q129.4094,18.5313 128.7453,17.8672 Q128.0813,17.2031 127.0188,17.2031 Q126.6281,17.2031 125.8625,18.7344 Q125.0969,20.2656 125.0969,22.5156 Q125.0969,24.9844 125.7609,26.375 Q126.425,27.7656 126.9563,27.7656 Q128.0188,27.7656 128.7766,27 Q129.5344,26.2344 129.8781,24.5781 L131.2063,25.1719 Q130.8781,26.5781 129.9797,27.4688 Q129.0813,28.3594 126.8781,28.3594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="145.7" y="29.4839">Maze</text><line style="stroke:#181818;stroke-width:0.5;" x1="99" x2="196" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="104" y="59.0439">maze</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="104" y="78.1641">beginPos</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="20" x="104" y="97.2842">cur</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="104" y="116.4043">endPos</text><line style="stroke:#181818;stroke-width:0.5;" x1="99" x2="196" y1="123.4805" y2="123.4805"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="104" y="143.5244">reset()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="104" y="162.6445">setSize()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="104" y="181.7646">updateMaze()</text></g><!--MD5=[02ac9f72e9c80adbd7340f6cc2747704]
+class mazeMake--><g id="elem_mazeMake"><rect codeLine="15" fill="#F1F1F1" height="105.3604" id="mazeMake" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="127" x="7" y="249"/><ellipse cx="34.6" cy="265" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M33.1781,270.3594 Q31.3188,270.3594 30.225,268.9688 Q29.1313,267.5781 29.1313,264.5938 Q29.1313,262.0625 30.2953,260.4063 Q31.4594,258.75 33.4438,258.75 Q34.9125,258.75 35.3813,258.875 Q35.85,259.0781 35.85,259.0781 Q35.85,259.0781 35.85,259.0078 Q35.85,258.9375 36.4594,258.0156 L37.5063,261.6719 L36.1781,262.0781 Q35.7094,260.5313 35.0453,259.8672 Q34.3813,259.2031 33.3188,259.2031 Q32.9281,259.2031 32.1625,260.7344 Q31.3969,262.2656 31.3969,264.5156 Q31.3969,266.9844 32.0609,268.375 Q32.725,269.7656 33.2563,269.7656 Q34.3188,269.7656 35.0766,269 Q35.8344,268.2344 36.1781,266.5781 L37.5063,267.1719 Q37.1781,268.5781 36.2797,269.4688 Q35.3813,270.3594 33.1781,270.3594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="51.4" y="271.4839">mazeMake</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="133" y1="281" y2="281"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="133" y1="289" y2="289"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="13" y="309.0439">setFlag()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="13" y="328.1641">emptyMap()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="13" y="347.2842">setBeginPosition()</text></g><!--MD5=[07b4317495ee52baf54313407fde23dd]
+class mazeSearch--><g id="elem_mazeSearch"><rect codeLine="22" fill="#F1F1F1" height="105.3604" id="mazeSearch" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="110" x="169.5" y="249"/><ellipse cx="184.5" cy="265" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M183.0781,270.3594 Q181.2188,270.3594 180.125,268.9688 Q179.0313,267.5781 179.0313,264.5938 Q179.0313,262.0625 180.1953,260.4063 Q181.3594,258.75 183.3438,258.75 Q184.8125,258.75 185.2813,258.875 Q185.75,259.0781 185.75,259.0781 Q185.75,259.0781 185.75,259.0078 Q185.75,258.9375 186.3594,258.0156 L187.4063,261.6719 L186.0781,262.0781 Q185.6094,260.5313 184.9453,259.8672 Q184.2813,259.2031 183.2188,259.2031 Q182.8281,259.2031 182.0625,260.7344 Q181.2969,262.2656 181.2969,264.5156 Q181.2969,266.9844 181.9609,268.375 Q182.625,269.7656 183.1563,269.7656 Q184.2188,269.7656 184.9766,269 Q185.7344,268.2344 186.0781,266.5781 L187.4063,267.1719 Q187.0781,268.5781 186.1797,269.4688 Q185.2813,270.3594 183.0781,270.3594 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="198.5" y="271.4839">mazeSearch</text><line style="stroke:#181818;stroke-width:0.5;" x1="170.5" x2="278.5" y1="281" y2="281"/><line style="stroke:#181818;stroke-width:0.5;" x1="170.5" x2="278.5" y1="289" y2="289"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="175.5" y="309.0439">dfs()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="175.5" y="328.1641">bfs()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="175.5" y="347.2842">a-star()</text></g><!--MD5=[45ebe085a0d745aba3c7401775ea5f04]
+link Maze to mazeMake--><g id="link_Maze_mazeMake"><path codeLine="29" d="M113.05,189.14 C107.81,202.87 102.46,216.86 97.41,230.09 " fill="none" id="Maze-to-mazeMake" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="103.94,232.61,90.26,248.79,90.86,227.61,103.94,232.61" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6d76c30b21f045e8d00260a5bc4b609f]
+link Maze to mazeSearch--><g id="link_Maze_mazeSearch"><path codeLine="30" d="M181.95,189.14 C187.19,202.87 192.54,216.86 197.59,230.09 " fill="none" id="Maze-to-mazeSearch" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="204.14,227.61,204.74,248.79,191.06,232.61,204.14,227.61" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1871db32e457a6b095634a443a7814a3]
+@startuml
+
+class Maze
+{
+    maze
+    beginPos
+    cur
+    endPos
+
+    reset()
+    setSize()
+    updateMaze()
+}
+
+class mazeMake
+{
+    setFlag()
+    emptyMap()
+    setBeginPosition()
+}
+
+class mazeSearch
+{
+    dfs()
+    bfs()
+    a-star()
+}
+
+Maze - -|> mazeMake
+Maze - -|> mazeSearch
+
+' Maze :
+
+
+@enduml
+
+@startuml
+
+class Maze
+{
+    maze
+    beginPos
+    cur
+    endPos
+
+    reset()
+    setSize()
+    updateMaze()
+}
+
+class mazeMake
+{
+    setFlag()
+    emptyMap()
+    setBeginPosition()
+}
+
+class mazeSearch
+{
+    dfs()
+    bfs()
+    a-star()
+}
+
+Maze - -|> mazeMake
+Maze - -|> mazeSearch
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 01:01:30 CST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: GBK
+Language: zh
+Country: CN
+--></g></svg>
