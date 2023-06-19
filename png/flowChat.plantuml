@@ -1,4 +1,4 @@
-@@startuml
+@startuml
 
 class Maze
 {
@@ -93,23 +93,24 @@ createMaze -left-> search
 
 @enduml
 
-
 @startuml
 
-state init{
-    [*]--> create_maze
-}
+start
+:创建主窗口;
 
 
-' class myThread
-' {
-    '     Maze *maze
-    '     MazeMaking *mazeMaking
-    '     MazeSearching *MazeSearching
+repeat : 开始运行;
+repeat : 设置横纵大小;
+repeat while (横纵不满足条件) is (not) not (yes)
+    :生成地图\n手动生成\n自动生成;
+    
+    repeat :设置起点和终点;
+    repeat while (判断起点和终点) is (not) not (yes)
+    :搜索\nDFS寻路\nA星算法;
+repeat while (关闭地图) is (not) not (yes)
 
-    '
-' }
 
+stop
 
 @enduml
 
