@@ -1,4 +1,0 @@
-B:/code/Qt/Mase/build/CMakeFiles/Maze.dir
-B:/code/Qt/Mase/build/CMakeFiles/edit_cache.dir
-B:/code/Qt/Mase/build/CMakeFiles/rebuild_cache.dir
-B:/code/Qt/Mase/build/CMakeFiles/Maze_autogen.dir

@@ -1,5 +1,5 @@
 #include "myThread.h"
-#include "MazeSearch.h"
+#include "mazeSearch.h"
 #include "mainwindow.h"
 #include "maze.h"
 #include "mazeMake.h"
